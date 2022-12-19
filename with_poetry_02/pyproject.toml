@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "with-poetry-02"
+version = "0.1.0"
+description = ""
+authors = ["nN1ce <nicevector@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "with_poetry_02"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

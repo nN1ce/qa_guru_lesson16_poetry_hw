@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-poetry"
+version = "0.1.0"
+description = ""
+authors = ["nN1ce <nicevector@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "test_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+selene = "2.0.b16"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
